@@ -18,10 +18,39 @@
     <ClCompile Include="MyForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Zula.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Lomik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lubelski1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sybilla.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Marynka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Oktawia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iunga.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zula.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

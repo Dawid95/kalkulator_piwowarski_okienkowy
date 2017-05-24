@@ -137,15 +137,58 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Zula.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Iunga.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lomik.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lubelski1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Marynka.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Oktawia.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sybilla.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Zula.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Iunga.resx">
+      <DependentUpon>Iunga.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lomik.resx">
+      <DependentUpon>Lomik.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lubelski1.resx">
+      <DependentUpon>Lubelski1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marynka.resx">
+      <DependentUpon>Marynka.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oktawia.resx">
+      <DependentUpon>Oktawia.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sybilla.resx">
+      <DependentUpon>Sybilla.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zula.resx">
+      <DependentUpon>Zula.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

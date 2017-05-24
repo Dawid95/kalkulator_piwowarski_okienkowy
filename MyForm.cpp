@@ -1,5 +1,6 @@
 #include "MyForm.h"
 
+
 using namespace System;
 using namespace System::Windows::Forms;
 
@@ -12,4 +13,5 @@ void Main(array<String^>^ args)
 
 	CppWinForm1::MyForm form;
 	Application::Run(%form);
+
 }
